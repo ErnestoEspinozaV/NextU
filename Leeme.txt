@@ -1,2 +1,5 @@
-Fecha: 24-03-2018
-La carpeta creada es para almacenar todos los cambios de la primera prueba realizada para los fundamentos en HTML5
+--Fecha: 24-03-2018
+--La carpeta creada es para almacenar todos los cambios de la primera prueba realizada para los fundamentos en HTML5
+
+--Repositorio creado para los cambios del proyecto
+https://github.com/ErnestoEspinozaV/NextU.git
