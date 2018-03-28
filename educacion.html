@@ -21,8 +21,97 @@
       <a href="../NextU/experiencia.html">
         <strong><li>Experiencia</li></strong>
       </a>
-
     </ul>
+
+    <h2>Educación</h2>
+    <table border="2",cellpading=0,cellspacing=0>
+      <thead>
+        <tr>
+          <td><strong>Año</strong></td>
+          <td><strong>Institución</strong></td>
+          <td><strong>Lugar</strong></td>
+          <td><strong>¿Culminó?</strong></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1992</td>
+          <td>Salesianos</td>
+          <td>Riobamba - Ecuador</td>
+          <td>SI</td>
+        </tr>
+        <tr>
+          <td>1999</td>
+          <td>Juan de Dios Martinez Mera</td>
+          <td>Guayaquil - Ecuador</td>
+          <td>SI</td>
+        </tr>
+        <tr>
+          <td>2005</td>
+          <td>Universidad Agraria del Ecuador</td>
+          <td>Guayaquil - Ecuador</td>
+          <td>SI</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <form action="" autocomplete="on" name="Estudios" style="width:500px">
+      <fieldset>
+        <legend>Agregar estudios</legend>
+        <table>
+          <tr>
+            <td>
+              <strong>
+                <label for="anios">Año</label>
+              </strong>
+            </td>
+            <td>
+              <select name="anios">
+          			<option value="1">2016</option>
+          			<option value="1">2017</option>
+          			<option value="1">2018</option>
+          		</select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <strong>
+                <label for="institucion">Institucion</label>
+              </strong>
+            </td>
+            <td>
+              <input type="text" name="institucion" placeholder="Universidad Católica" autofocus required>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <strong>
+                <label for="lugar">Lugar</label>
+              </strong>
+            </td>
+            <td>
+              <textarea name="lugar" id="" cols="22" rows="3" required></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <strong>
+                <label for="culmino">¿Culminó?</label>
+              </strong>
+            </td>
+            <td>
+              <input type="radio" name="culmino" required> SI
+          		<input type="radio" name="culmino" required> NO
+            </td>
+          </tr>
+        </table>
+        <p>
+          <input type="submit" value="Registrar">
+        </p>
+      </fieldset>
+    </form>
+    <br>
+
   </body>
   <footer>
     &copy; Copyright 2018, Ernesto Espinoza
