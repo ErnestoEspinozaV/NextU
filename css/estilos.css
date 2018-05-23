@@ -1,0 +1,86 @@
+body
+{
+  background-color: gray;
+}
+
+footer
+{
+  margin-top: 20px;
+}
+
+img
+{
+  border-radius: 10px;
+}
+
+#Contenedor{
+  font-family: helvetica;
+  font-size: 16px;
+}
+
+#Encabezado{
+  display: block;
+  margin: auto;
+}
+
+.itemIndice{
+  list-style-type: upper-roman;
+}
+
+.enlace{
+  color: red;
+}
+
+img[src$='svg']{
+  border-radius: 50px;
+}
+
+img[src$='png'],img[src$='jpg']{
+  border-radius: 9px;
+  border: solid 2px yellow;
+}
+
+*{
+  margin: 1vh 1vw;
+}
+
+h1 + h2{
+  text-decoration: underline;
+}
+
+h2 ~ p{
+  text-align: justify;
+}
+
+ul li{
+  list-style-type: circle;
+}
+
+a:hover{
+  color: green;
+}
+
+a[href^='https://']:visited{
+  color: red;
+}
+
+h2:first-child{
+  color: lime;
+  text-decoration: underline;
+}
+
+input:focus{
+  border: solid 2px blue;
+}
+
+p::first-letter{
+  text-transform: capitalize;
+}
+
+p::first-line{
+  font-size: 32px;
+}
+
+p::selection{
+  
+}
